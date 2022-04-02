@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft-04/schema",
+  "type": "object",
+  "properties": {
+
+                "bookingid": {"type": "number"},
+                "booking": {
+                  "firstname": {"type": "string"},
+                  "lastname": {"type": "string"},
+                  "totalprice": {"type": "number"},
+                  "depositpaid": {"type": "boolean"},
+                  "bookingdates": {
+                    "checkin": {"type": "string"},
+                    "checkout": {"type": "string"}
+                  },
+                  "additionalneeds": {"type": "string"}
+                }
+
+  }
+}
+
